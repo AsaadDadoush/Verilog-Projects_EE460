@@ -1,0 +1,86 @@
+# Reading pref.tcl
+# do Tristate_Adder_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/uni/EE/EE\ 460/assgiments/Verilog\ A#1 {D:/uni/EE/EE 460/assgiments/Verilog A#1/eightBitRegister.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:22:40 on Jan 23,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#1" D:/uni/EE/EE 460/assgiments/Verilog A#1/eightBitRegister.v 
+# -- Compiling module eightBitRegister
+# 
+# Top level modules:
+# 	eightBitRegister
+# End time: 20:22:40 on Jan 23,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/uni/EE/EE\ 460/assgiments/Verilog\ A#1 {D:/uni/EE/EE 460/assgiments/Verilog A#1/triStateBuff.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:22:40 on Jan 23,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#1" D:/uni/EE/EE 460/assgiments/Verilog A#1/triStateBuff.v 
+# -- Compiling module triStateBuff
+# 
+# Top level modules:
+# 	triStateBuff
+# End time: 20:22:40 on Jan 23,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/uni/EE/EE\ 460/assgiments/Verilog\ A#1 {D:/uni/EE/EE 460/assgiments/Verilog A#1/triStateBus.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:22:40 on Jan 23,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#1" D:/uni/EE/EE 460/assgiments/Verilog A#1/triStateBus.v 
+# -- Compiling module triStateBus
+# 
+# Top level modules:
+# 	triStateBus
+# End time: 20:22:40 on Jan 23,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/uni/EE/EE\ 460/assgiments/Verilog\ A#1 {D:/uni/EE/EE 460/assgiments/Verilog A#1/Adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:22:40 on Jan 23,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#1" D:/uni/EE/EE 460/assgiments/Verilog A#1/Adder.v 
+# -- Compiling module Adder
+# 
+# Top level modules:
+# 	Adder
+# End time: 20:22:40 on Jan 23,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work {D:/uni/EE/EE 460/assgiments/Verilog A#1/triAdd_test.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:22:57 on Jan 23,2022
+# vlog -reportprogress 300 -work work D:/uni/EE/EE 460/assgiments/Verilog A#1/triAdd_test.v 
+# -- Compiling module triadd_test
+# 
+# Top level modules:
+# 	triadd_test
+# End time: 20:22:57 on Jan 23,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.triadd_test
+# vsim work.triadd_test 
+# Start time: 20:23:01 on Jan 23,2022
+# Loading work.triadd_test
+# Loading work.triStateBus
+# Loading work.triStateBuff
+# Loading work.Adder
+# Loading work.eightBitRegister
+add wave -position end  sim:/triadd_test/dataIn
+add wave -position end  sim:/triadd_test/dataBus
+add wave -position end  sim:/triadd_test/enbIn
+add wave -position end  sim:/triadd_test/enbA
+add wave -position end  sim:/triadd_test/enbB
+add wave -position end  sim:/triadd_test/enbC
+add wave -position end  sim:/triadd_test/enbAdd
+add wave -position end  sim:/triadd_test/ldA
+add wave -position end  sim:/triadd_test/ldB
+add wave -position end  sim:/triadd_test/ldC
+add wave -position end  sim:/triadd_test/reset
+add wave -position end  sim:/triadd_test/clock
+run
+# End time: 20:28:07 on Jan 23,2022, Elapsed time: 0:05:06
+# Errors: 0, Warnings: 0

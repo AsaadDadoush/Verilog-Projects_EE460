@@ -1,0 +1,55 @@
+`timescale 1 ns / 1 ns
+module testBench();
+
+	reg [15:0] period, active;
+	reg  start, stop, clock, reset;
+	wire PWMSigna;
+
+	
+	always #5 clock = ~clock;
+
+
+	PWM TopLevel(period, active, start, stop, clock, reset, PWMSigna);
+	
+	
+	initial begin
+		start = 0;
+		stop = 0;
+		clock = 0;
+		reset = 0;
+		period = 16'd0;
+		active = 16'd0;
+		
+		#10
+		reset = 1;
+		#10
+		reset = 0;
+		
+		period = 16'd10;
+		active = 16'd2;
+		
+		start = 1;
+		#10
+		start = 0;
+		#600
+		stop = 1;
+		#10
+		stop = 0;
+		#10
+		
+		reset = 1;
+		#10
+		reset = 0;
+		
+		period = 16'd10;
+		active = 16'd5;
+		
+		start = 1;
+		#10
+		start = 0;
+		#900
+		stop = 1;
+	end
+	
+
+endmodule 

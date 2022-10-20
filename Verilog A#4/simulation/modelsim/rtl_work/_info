@@ -1,0 +1,210 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/uni/EE/EE 460/assgiments/Verilog A#4/simulation/modelsim
+vCNT
+!s110 1646852075
+!i10b 1
+!s100 eD;>R;9mh0z=gYA3J]9I]1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I8<eN2ZJH>6U>?6[4J^Q]C2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1646681757
+8D:/uni/EE/EE 460/assgiments/Verilog A#4/CNT.v
+FD:/uni/EE/EE 460/assgiments/Verilog A#4/CNT.v
+!i122 0
+L0 1 19
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1646852075.000000
+!s107 D:/uni/EE/EE 460/assgiments/Verilog A#4/CNT.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#4|D:/uni/EE/EE 460/assgiments/Verilog A#4/CNT.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#4}
+Z7 tCvgOpt 0
+n@c@n@t
+vCOMP
+Z8 !s110 1646852076
+!i10b 1
+!s100 075OfB6]NSkZC_;Im@SYW3
+R1
+IMdXP5cDmFCc28YihkINcA2
+R2
+R0
+w1646682137
+8D:/uni/EE/EE 460/assgiments/Verilog A#4/COMP.v
+FD:/uni/EE/EE 460/assgiments/Verilog A#4/COMP.v
+!i122 1
+Z9 L0 1 17
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/uni/EE/EE 460/assgiments/Verilog A#4/COMP.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#4|D:/uni/EE/EE 460/assgiments/Verilog A#4/COMP.v|
+!i113 1
+R5
+R6
+R7
+n@c@o@m@p
+vControlUnit
+R8
+!i10b 1
+!s100 W@i7A9Qc;CM3^iFl1<JUF1
+R1
+IKEEY:VWfQ_@fC3_U7N@5=2
+R2
+R0
+w1646687017
+8D:/uni/EE/EE 460/assgiments/Verilog A#4/ControlUnit.v
+FD:/uni/EE/EE 460/assgiments/Verilog A#4/ControlUnit.v
+!i122 5
+L0 1 49
+R3
+r1
+!s85 0
+31
+Z10 !s108 1646852076.000000
+!s107 D:/uni/EE/EE 460/assgiments/Verilog A#4/ControlUnit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#4|D:/uni/EE/EE 460/assgiments/Verilog A#4/ControlUnit.v|
+!i113 1
+R5
+R6
+R7
+n@control@unit
+vDataPath
+R8
+!i10b 1
+!s100 7MmWXN[OS2gB7FekT<Tie2
+R1
+IG>SgjO[lino_UD0MS3B8j2
+R2
+R0
+w1646685540
+8D:/uni/EE/EE 460/assgiments/Verilog A#4/DataPath.v
+FD:/uni/EE/EE 460/assgiments/Verilog A#4/DataPath.v
+!i122 4
+R9
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/uni/EE/EE 460/assgiments/Verilog A#4/DataPath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#4|D:/uni/EE/EE 460/assgiments/Verilog A#4/DataPath.v|
+!i113 1
+R5
+R6
+R7
+n@data@path
+vPWM
+R8
+!i10b 1
+!s100 ^[:1=N9T@BUe3EJ;QmIgA3
+R1
+IKc9IINLVWCHCIM20m[XLM2
+R2
+R0
+w1646846893
+8D:/uni/EE/EE 460/assgiments/Verilog A#4/PWM.v
+FD:/uni/EE/EE 460/assgiments/Verilog A#4/PWM.v
+!i122 6
+L0 1 13
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/uni/EE/EE 460/assgiments/Verilog A#4/PWM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#4|D:/uni/EE/EE 460/assgiments/Verilog A#4/PWM.v|
+!i113 1
+R5
+R6
+R7
+n@p@w@m
+vPWMOutput
+R8
+!i10b 1
+!s100 fEQLeLga`;ONQT;Pg9WUi0
+R1
+I1;kZ]BFHn6MZUAV2:JhVI0
+R2
+R0
+w1646684111
+8D:/uni/EE/EE 460/assgiments/Verilog A#4/PWMOuput.v
+FD:/uni/EE/EE 460/assgiments/Verilog A#4/PWMOuput.v
+!i122 3
+L0 1 9
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/uni/EE/EE 460/assgiments/Verilog A#4/PWMOuput.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#4|D:/uni/EE/EE 460/assgiments/Verilog A#4/PWMOuput.v|
+!i113 1
+R5
+R6
+R7
+n@p@w@m@output
+vtestBench
+!s110 1646852442
+!i10b 1
+!s100 zW0Mo6_XBLoPnBXELH[bC1
+R1
+IJ<`[0_oQkKBiGNJ[9:dZQ2
+R2
+R0
+w1646852433
+8D:/uni/EE/EE 460/assgiments/Verilog A#4/testBench.v
+FD:/uni/EE/EE 460/assgiments/Verilog A#4/testBench.v
+!i122 9
+L0 1 83
+R3
+r1
+!s85 0
+31
+!s108 1646852442.000000
+!s107 D:/uni/EE/EE 460/assgiments/Verilog A#4/testBench.v|
+!s90 -reportprogress|300|-work|work|D:/uni/EE/EE 460/assgiments/Verilog A#4/testBench.v|
+!i113 1
+o-work work
+R7
+ntest@bench
+vZeroDetect
+R8
+!i10b 1
+!s100 _>ie:15hZUaI3[:^hcFD52
+R1
+I?oCTPBQKo6P?Pc1eV1;iG3
+R2
+R0
+w1646683647
+8D:/uni/EE/EE 460/assgiments/Verilog A#4/ZeroDetect.v
+FD:/uni/EE/EE 460/assgiments/Verilog A#4/ZeroDetect.v
+!i122 2
+R9
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/uni/EE/EE 460/assgiments/Verilog A#4/ZeroDetect.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#4|D:/uni/EE/EE 460/assgiments/Verilog A#4/ZeroDetect.v|
+!i113 1
+R5
+R6
+R7
+n@zero@detect

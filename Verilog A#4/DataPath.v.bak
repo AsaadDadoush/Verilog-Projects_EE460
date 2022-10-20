@@ -1,0 +1,7 @@
+module DataPath(
+	
+	input [15:0] PERIOD, ACTIVE,
+	input clk, reset, Load_Comp, Load_CNT, Enb,
+	output zero_Check, PWM_SIGNAL);
+	
+	

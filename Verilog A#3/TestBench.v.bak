@@ -1,0 +1,42 @@
+module Test_FebAdder;
+
+	//inputs
+	reg [4:0] numberIn;
+	reg GO;
+	reg reset;
+	reg clock;
+	
+	//outputs
+	wire Done;
+	wire [16:0] numberOut;
+	
+	FibonacciAdder FA( numberIn, GO, clock, reset, Done, numberOut);
+	
+	always
+		#5 clock = ~clock;
+	
+	initial begin
+		// intilaizing data
+		numberIn = 0;
+		GO = 0;
+		reset = 0;
+		clock = 0;
+		
+		///////////////
+		@(posedge clock);
+		numberIn = 24;
+		GO = 0;
+		
+		///////////////
+		@(posedge clock);
+		numberIn = 24;
+		GO = 1;
+		#260;
+		$stop;
+		
+	end
+	
+endmodule
+		
+		
+		

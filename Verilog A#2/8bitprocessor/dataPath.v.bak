@@ -1,0 +1,22 @@
+module dataPath(
+    input [7:0] dataIn,
+	 input [1:0] Rx, Ry, 
+    output [7:0] dataOut,
+    input AddSub,
+    input [1:0] destSrc,
+    input regWrite,
+	 input clock
+    );
+	
+	wire [7:0] dataA,  dataB, dataW, result; 
+
+	assign dataOut = dataW;
+	
+	regFile RF(Ry, Rx, Rx, regWrite, dataA, dataB, dataW, clock);
+	
+	ALU   AS(dataB, dataA, AddSub, result);
+	
+	MUX3  mux(dataIn, dataA, result, destSrc, dataW);
+
+
+endmodule

@@ -1,0 +1,51 @@
+module testProc;
+
+	// Inputs
+	reg [7:0] dataIn;
+	reg [5:0] func;
+	reg clock;
+
+	// Outputs
+	wire [7:0] dataOut;
+
+	// Instantiate the Unit Under Test (UUT)
+	simple8BitProcessor uut (
+		.dataIn(dataIn), 
+		.dataOut(dataOut), 
+		.func(func), 
+		.clock(clock)
+	);
+	
+	always
+		#5 clock = ~clock;
+
+	initial begin
+		// Initialize Inputs
+		dataIn = 0;
+		func = 0;
+		clock = 0;
+
+        
+      @(negedge clock);
+		dataIn = 4;
+		func = 6'b00_01_00; //load R1, 4		
+		
+		@(negedge clock);
+		dataIn = 5;	
+		func = 6'b00_00_00;	//load R0, 5
+		
+		@(negedge clock);
+		func = 6'b10_01_00;  // add R1,R0
+		
+		@(negedge clock);
+		func = 6'b01_11_01;  // mov R3,R1
+		
+		@(negedge clock);
+		func = 6'b11_00_01;  // sub R0,R1
+				
+		#20
+		$finish;
+
+	end
+      
+endmodule

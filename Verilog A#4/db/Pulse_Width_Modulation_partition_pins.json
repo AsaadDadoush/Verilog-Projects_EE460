@@ -1,0 +1,157 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "PWM_SIGNAL",
+					"strict" : false
+				},
+				{
+					"name" : "ACTIVE[15]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "start",
+					"strict" : false
+				},
+				{
+					"name" : "stop",
+					"strict" : false
+				},
+				{
+					"name" : "ACTIVE[14]",
+					"strict" : false
+				},
+				{
+					"name" : "ACTIVE[13]",
+					"strict" : false
+				},
+				{
+					"name" : "ACTIVE[12]",
+					"strict" : false
+				},
+				{
+					"name" : "ACTIVE[11]",
+					"strict" : false
+				},
+				{
+					"name" : "ACTIVE[10]",
+					"strict" : false
+				},
+				{
+					"name" : "ACTIVE[9]",
+					"strict" : false
+				},
+				{
+					"name" : "ACTIVE[8]",
+					"strict" : false
+				},
+				{
+					"name" : "ACTIVE[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ACTIVE[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ACTIVE[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ACTIVE[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ACTIVE[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ACTIVE[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ACTIVE[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ACTIVE[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PERIOD[15]",
+					"strict" : false
+				},
+				{
+					"name" : "PERIOD[14]",
+					"strict" : false
+				},
+				{
+					"name" : "PERIOD[13]",
+					"strict" : false
+				},
+				{
+					"name" : "PERIOD[12]",
+					"strict" : false
+				},
+				{
+					"name" : "PERIOD[11]",
+					"strict" : false
+				},
+				{
+					"name" : "PERIOD[10]",
+					"strict" : false
+				},
+				{
+					"name" : "PERIOD[9]",
+					"strict" : false
+				},
+				{
+					"name" : "PERIOD[8]",
+					"strict" : false
+				},
+				{
+					"name" : "PERIOD[7]",
+					"strict" : false
+				},
+				{
+					"name" : "PERIOD[6]",
+					"strict" : false
+				},
+				{
+					"name" : "PERIOD[5]",
+					"strict" : false
+				},
+				{
+					"name" : "PERIOD[4]",
+					"strict" : false
+				},
+				{
+					"name" : "PERIOD[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PERIOD[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PERIOD[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PERIOD[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

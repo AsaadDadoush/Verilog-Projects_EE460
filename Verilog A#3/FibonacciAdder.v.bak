@@ -1,0 +1,9 @@
+module FibonacciAdder(
+
+	input [4:0] FiboInput,
+	input go, clk, reset,
+	output done,
+	output [16:0] FiboOut);
+	
+	wire [16:0] Input_A, Input_B;
+	wire enA, enB,  

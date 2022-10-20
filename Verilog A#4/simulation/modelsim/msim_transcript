@@ -1,0 +1,151 @@
+# Reading pref.tcl
+# do Pulse_Width_Modulation_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/uni/EE/EE\ 460/assgiments/Verilog\ A#4 {D:/uni/EE/EE 460/assgiments/Verilog A#4/CNT.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:54:35 on Mar 09,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#4" D:/uni/EE/EE 460/assgiments/Verilog A#4/CNT.v 
+# -- Compiling module CNT
+# 
+# Top level modules:
+# 	CNT
+# End time: 21:54:35 on Mar 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/uni/EE/EE\ 460/assgiments/Verilog\ A#4 {D:/uni/EE/EE 460/assgiments/Verilog A#4/COMP.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:54:35 on Mar 09,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#4" D:/uni/EE/EE 460/assgiments/Verilog A#4/COMP.v 
+# -- Compiling module COMP
+# 
+# Top level modules:
+# 	COMP
+# End time: 21:54:36 on Mar 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/uni/EE/EE\ 460/assgiments/Verilog\ A#4 {D:/uni/EE/EE 460/assgiments/Verilog A#4/ZeroDetect.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:54:36 on Mar 09,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#4" D:/uni/EE/EE 460/assgiments/Verilog A#4/ZeroDetect.v 
+# -- Compiling module ZeroDetect
+# 
+# Top level modules:
+# 	ZeroDetect
+# End time: 21:54:36 on Mar 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/uni/EE/EE\ 460/assgiments/Verilog\ A#4 {D:/uni/EE/EE 460/assgiments/Verilog A#4/PWMOuput.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:54:36 on Mar 09,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#4" D:/uni/EE/EE 460/assgiments/Verilog A#4/PWMOuput.v 
+# -- Compiling module PWMOutput
+# 
+# Top level modules:
+# 	PWMOutput
+# End time: 21:54:36 on Mar 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/uni/EE/EE\ 460/assgiments/Verilog\ A#4 {D:/uni/EE/EE 460/assgiments/Verilog A#4/DataPath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:54:36 on Mar 09,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#4" D:/uni/EE/EE 460/assgiments/Verilog A#4/DataPath.v 
+# -- Compiling module DataPath
+# 
+# Top level modules:
+# 	DataPath
+# End time: 21:54:36 on Mar 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/uni/EE/EE\ 460/assgiments/Verilog\ A#4 {D:/uni/EE/EE 460/assgiments/Verilog A#4/ControlUnit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:54:36 on Mar 09,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#4" D:/uni/EE/EE 460/assgiments/Verilog A#4/ControlUnit.v 
+# -- Compiling module ControlUnit
+# 
+# Top level modules:
+# 	ControlUnit
+# End time: 21:54:36 on Mar 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/uni/EE/EE\ 460/assgiments/Verilog\ A#4 {D:/uni/EE/EE 460/assgiments/Verilog A#4/PWM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:54:36 on Mar 09,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#4" D:/uni/EE/EE 460/assgiments/Verilog A#4/PWM.v 
+# -- Compiling module PWM
+# 
+# Top level modules:
+# 	PWM
+# End time: 21:54:36 on Mar 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work {D:/uni/EE/EE 460/assgiments/Verilog A#4/testBench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:54:52 on Mar 09,2022
+# vlog -reportprogress 300 -work work D:/uni/EE/EE 460/assgiments/Verilog A#4/testBench.v 
+# -- Compiling module testBench
+# 
+# Top level modules:
+# 	testBench
+# End time: 21:54:52 on Mar 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testBench
+# vsim work.testBench 
+# Start time: 21:54:56 on Mar 09,2022
+# Loading work.testBench
+# Loading work.PWM
+# Loading work.DataPath
+# Loading work.COMP
+# Loading work.CNT
+# Loading work.ZeroDetect
+# Loading work.PWMOutput
+# Loading work.ControlUnit
+add wave -position end  sim:/testBench/PERIOD
+add wave -position end  sim:/testBench/ACTIVE
+add wave -position end  sim:/testBench/start
+add wave -position end  sim:/testBench/stop
+add wave -position end  sim:/testBench/clk
+add wave -position end  sim:/testBench/reset
+add wave -position end  sim:/testBench/PWN_SIGNAL
+run
+restart
+run
+restart
+run
+vlog -reportprogress 300 -work work {D:/uni/EE/EE 460/assgiments/Verilog A#4/testBench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:57:28 on Mar 09,2022
+# vlog -reportprogress 300 -work work D:/uni/EE/EE 460/assgiments/Verilog A#4/testBench.v 
+# -- Compiling module testBench
+# ** Error: (vlog-13069) D:/uni/EE/EE 460/assgiments/Verilog A#4/testBench.v(81): near "end": syntax error, unexpected end.
+# End time: 21:57:28 on Mar 09,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work {D:/uni/EE/EE 460/assgiments/Verilog A#4/testBench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:09 on Mar 09,2022
+# vlog -reportprogress 300 -work work D:/uni/EE/EE 460/assgiments/Verilog A#4/testBench.v 
+# -- Compiling module testBench
+# 
+# Top level modules:
+# 	testBench
+# End time: 21:58:09 on Mar 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.testBench
+run
+restart
+vlog -reportprogress 300 -work work {D:/uni/EE/EE 460/assgiments/Verilog A#4/testBench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:00:42 on Mar 09,2022
+# vlog -reportprogress 300 -work work D:/uni/EE/EE 460/assgiments/Verilog A#4/testBench.v 
+# -- Compiling module testBench
+# 
+# Top level modules:
+# 	testBench
+# End time: 22:00:42 on Mar 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+run
+# End time: 23:30:12 on Mar 09,2022, Elapsed time: 1:35:16
+# Errors: 0, Warnings: 0

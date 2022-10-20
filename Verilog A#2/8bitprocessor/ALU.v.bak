@@ -1,0 +1,13 @@
+module ALU(
+    input [7:0] parmA,
+    input [7:0] parmB,
+    input AddSub,
+    output reg [7:0] result
+    );
+
+	always @(*) 
+		if(AddSub) 	result = parmA + parmB;
+		else 			result = parmA - parmB;
+
+
+endmodule

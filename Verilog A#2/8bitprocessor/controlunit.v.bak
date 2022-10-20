@@ -1,0 +1,18 @@
+module controlUnit(
+  input [1:0] opCode,
+  output regWrite,
+  output AddSub,
+  output [1:0] destSrc);
+  
+  reg [3:0] ctrlSignals;
+  assign {regWrite, AddSub, destSrc} = ctrlSignals;
+
+  always @(*)
+    case(opCode)        // regWrite, AddSub, destSrc
+      2'b00: ctrlSignals = 4'b10_00; // load
+      2'b01: ctrlSignals = 4'b10_01; // move
+      2'b10: ctrlSignals = 4'b11_10; // add
+      2'b11: ctrlSignals = 4'b10_10; // sub						
+      default:  ctrlSignals = 4'b0000;
+    endcase
+endmodule

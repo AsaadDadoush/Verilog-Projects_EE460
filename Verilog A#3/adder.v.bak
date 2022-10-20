@@ -1,0 +1,3 @@
+module adder(
+	input [16:0] addIn1, addIn2,
+	output reg [16:0] addOut);

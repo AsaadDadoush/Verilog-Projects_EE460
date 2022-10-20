@@ -1,0 +1,184 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/uni/EE/EE 460/assgiments/Verilog A#3/simulation/modelsim
+vAdder
+Z1 !s110 1645540264
+!i10b 1
+!s100 T1Q?@]69cmVC3R0dG^ADK0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IKhKjW_IS9L7^`VYP[8ZB;2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1645201245
+8D:/uni/EE/EE 460/assgiments/Verilog A#3/adder.v
+FD:/uni/EE/EE 460/assgiments/Verilog A#3/adder.v
+!i122 0
+L0 1 9
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1645540264.000000
+!s107 D:/uni/EE/EE 460/assgiments/Verilog A#3/adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#3|D:/uni/EE/EE 460/assgiments/Verilog A#3/adder.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work {+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#3}
+Z8 tCvgOpt 0
+n@adder
+vControlUnit
+Z9 !s110 1645540265
+!i10b 1
+!s100 2KIgVI0kD8Q67k@3;Pbl_1
+R2
+I6Yd<:FYRLF:_?DSoJZ4Lm1
+R3
+R0
+w1645285911
+8D:/uni/EE/EE 460/assgiments/Verilog A#3/ControlUnit.v
+FD:/uni/EE/EE 460/assgiments/Verilog A#3/ControlUnit.v
+!i122 6
+L0 1 81
+R4
+r1
+!s85 0
+31
+Z10 !s108 1645540265.000000
+!s107 D:/uni/EE/EE 460/assgiments/Verilog A#3/ControlUnit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#3|D:/uni/EE/EE 460/assgiments/Verilog A#3/ControlUnit.v|
+!i113 1
+R6
+R7
+R8
+n@control@unit
+vcounter
+R1
+!i10b 1
+!s100 0BTcJflMX;RbgBoXCCJAk0
+R2
+I5h7:Q[U_WQzHH_HW91cfb0
+R3
+R0
+w1645210337
+8D:/uni/EE/EE 460/assgiments/Verilog A#3/counter.v
+FD:/uni/EE/EE 460/assgiments/Verilog A#3/counter.v
+!i122 1
+L0 1 17
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/uni/EE/EE 460/assgiments/Verilog A#3/counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#3|D:/uni/EE/EE 460/assgiments/Verilog A#3/counter.v|
+!i113 1
+R6
+R7
+R8
+vdatapth
+R9
+!i10b 1
+!s100 6zbTKE^i6eCJccTHiUi1d1
+R2
+IE6;aUZW0LWYUSD:6=7_^=1
+R3
+R0
+w1645211824
+8D:/uni/EE/EE 460/assgiments/Verilog A#3/datapth.v
+FD:/uni/EE/EE 460/assgiments/Verilog A#3/datapth.v
+!i122 5
+L0 1 25
+R4
+r1
+!s85 0
+31
+R10
+!s107 D:/uni/EE/EE 460/assgiments/Verilog A#3/datapth.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#3|D:/uni/EE/EE 460/assgiments/Verilog A#3/datapth.v|
+!i113 1
+R6
+R7
+R8
+vFibonacciAdder
+R9
+!i10b 1
+!s100 V=7:j4l?n^cd2UDnRJQYB0
+R2
+IJ:IXji=cB1MBU=Wo=NhU11
+R3
+R0
+w1645208909
+8D:/uni/EE/EE 460/assgiments/Verilog A#3/FibonacciAdder.v
+FD:/uni/EE/EE 460/assgiments/Verilog A#3/FibonacciAdder.v
+!i122 4
+L0 1 15
+R4
+r1
+!s85 0
+31
+R10
+!s107 D:/uni/EE/EE 460/assgiments/Verilog A#3/FibonacciAdder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#3|D:/uni/EE/EE 460/assgiments/Verilog A#3/FibonacciAdder.v|
+!i113 1
+R6
+R7
+R8
+n@fibonacci@adder
+vMUX
+R1
+!i10b 1
+!s100 LaB`n3_I_E^j3Q1WDC3AB1
+R2
+I`F@n4S3Yc5mFeAUkdm1zi1
+R3
+R0
+w1645210507
+8D:/uni/EE/EE 460/assgiments/Verilog A#3/MUX.v
+FD:/uni/EE/EE 460/assgiments/Verilog A#3/MUX.v
+!i122 2
+L0 1 14
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/uni/EE/EE 460/assgiments/Verilog A#3/MUX.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#3|D:/uni/EE/EE 460/assgiments/Verilog A#3/MUX.v|
+!i113 1
+R6
+R7
+R8
+n@m@u@x
+vReg
+R9
+!i10b 1
+!s100 c^k<RZ2o9;ehmHgN85R022
+R2
+I48_n9E`OjNcSPJYGl9<Hh1
+R3
+R0
+w1645199490
+8D:/uni/EE/EE 460/assgiments/Verilog A#3/Reg.v
+FD:/uni/EE/EE 460/assgiments/Verilog A#3/Reg.v
+!i122 3
+L0 1 19
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/uni/EE/EE 460/assgiments/Verilog A#3/Reg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#3|D:/uni/EE/EE 460/assgiments/Verilog A#3/Reg.v|
+!i113 1
+R6
+R7
+R8
+n@reg

@@ -1,0 +1,113 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "dataBus[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dataBus[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dataBus[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dataBus[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dataBus[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dataBus[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dataBus[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dataBus[7]",
+					"strict" : false
+				},
+				{
+					"name" : "inData[0]",
+					"strict" : false
+				},
+				{
+					"name" : "enbA",
+					"strict" : false
+				},
+				{
+					"name" : "enbIn",
+					"strict" : false
+				},
+				{
+					"name" : "enbB",
+					"strict" : false
+				},
+				{
+					"name" : "enbC",
+					"strict" : false
+				},
+				{
+					"name" : "enbAdd",
+					"strict" : false
+				},
+				{
+					"name" : "inData[1]",
+					"strict" : false
+				},
+				{
+					"name" : "inData[2]",
+					"strict" : false
+				},
+				{
+					"name" : "inData[3]",
+					"strict" : false
+				},
+				{
+					"name" : "inData[4]",
+					"strict" : false
+				},
+				{
+					"name" : "inData[5]",
+					"strict" : false
+				},
+				{
+					"name" : "inData[6]",
+					"strict" : false
+				},
+				{
+					"name" : "inData[7]",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "ldA",
+					"strict" : false
+				},
+				{
+					"name" : "ldC",
+					"strict" : false
+				},
+				{
+					"name" : "ldB",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

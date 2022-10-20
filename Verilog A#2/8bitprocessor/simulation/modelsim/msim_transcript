@@ -1,0 +1,154 @@
+# Reading pref.tcl
+# do Datapath_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/uni/EE/EE\ 460/assgiments/Verilog\ A#2/8bitprocessor {D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/ALU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:11:22 on Feb 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor" D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 19:11:22 on Feb 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/uni/EE/EE\ 460/assgiments/Verilog\ A#2/8bitprocessor {D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/controlunit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:11:22 on Feb 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor" D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/controlunit.v 
+# -- Compiling module controlUnit
+# 
+# Top level modules:
+# 	controlUnit
+# End time: 19:11:22 on Feb 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/uni/EE/EE\ 460/assgiments/Verilog\ A#2/8bitprocessor {D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/MUX3.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:11:22 on Feb 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor" D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/MUX3.v 
+# -- Compiling module MUX3
+# 
+# Top level modules:
+# 	MUX3
+# End time: 19:11:22 on Feb 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/uni/EE/EE\ 460/assgiments/Verilog\ A#2/8bitprocessor {D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/dataPath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:11:22 on Feb 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor" D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/dataPath.v 
+# -- Compiling module dataPath
+# 
+# Top level modules:
+# 	dataPath
+# End time: 19:11:22 on Feb 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/uni/EE/EE\ 460/assgiments/Verilog\ A#2/8bitprocessor {D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/regFile.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:11:22 on Feb 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor" D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/regFile.v 
+# -- Compiling module regFile
+# 
+# Top level modules:
+# 	regFile
+# End time: 19:11:23 on Feb 14,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/uni/EE/EE\ 460/assgiments/Verilog\ A#2/8bitprocessor {D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/simple8BitProcessor.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:11:23 on Feb 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor" D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/simple8BitProcessor.v 
+# -- Compiling module simple8BitProcessor
+# 
+# Top level modules:
+# 	simple8BitProcessor
+# End time: 19:11:23 on Feb 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work {D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/testProc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:12:07 on Feb 14,2022
+# vlog -reportprogress 300 -work work D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/testProc.v 
+# -- Compiling module testProc
+# 
+# Top level modules:
+# 	testProc
+# End time: 19:12:08 on Feb 14,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim rtl_work.testProc
+# vsim rtl_work.testProc 
+# Start time: 19:12:15 on Feb 14,2022
+# Loading rtl_work.testProc
+# Loading rtl_work.simple8BitProcessor
+# Loading rtl_work.controlUnit
+# Loading rtl_work.dataPath
+# Loading rtl_work.regFile
+# Loading rtl_work.ALU
+# Loading rtl_work.MUX3
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$end' is not defined.
+#    Time: 0 ps  Iteration: 0  Instance: /testProc File: D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/testProc.v Line: 58
+add wave -position end  sim:/testProc/dataIn
+add wave -position end  sim:/testProc/func
+add wave -position end  sim:/testProc/clock
+add wave -position end  sim:/testProc/dataOut
+run
+vlog -reportprogress 300 -work work {D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/testProc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:14:17 on Feb 14,2022
+# vlog -reportprogress 300 -work work D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/testProc.v 
+# -- Compiling module testProc
+# 
+# Top level modules:
+# 	testProc
+# End time: 19:14:17 on Feb 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim rtl_work.testProc
+# End time: 19:14:22 on Feb 14,2022, Elapsed time: 0:02:07
+# Errors: 0, Warnings: 1
+# vsim rtl_work.testProc 
+# Start time: 19:14:22 on Feb 14,2022
+# Loading rtl_work.testProc
+# Loading rtl_work.simple8BitProcessor
+# Loading rtl_work.controlUnit
+# Loading rtl_work.dataPath
+# Loading rtl_work.regFile
+# Loading rtl_work.ALU
+# Loading rtl_work.MUX3
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$end' is not defined.
+#    Time: 0 ps  Iteration: 0  Instance: /testProc File: D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/testProc.v Line: 58
+add wave -position end  sim:/testProc/dataIn
+add wave -position end  sim:/testProc/func
+add wave -position end  sim:/testProc/clock
+add wave -position end  sim:/testProc/dataOut
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$end' is not defined.
+#    Time: 0 ps  Iteration: 0  Instance: /testProc File: D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/testProc.v Line: 58
+add wave -position end  sim:/testProc/uut/DP/RF/rf[7]
+add wave -position end  sim:/testProc/uut/DP/RF/rf[6]
+add wave -position end  sim:/testProc/uut/DP/RF/rf[5]
+add wave -position end  sim:/testProc/uut/DP/RF/rf[4]
+add wave -position end  sim:/testProc/uut/DP/RF/rf[3]
+add wave -position end  sim:/testProc/uut/DP/RF/rf[2]
+add wave -position end  sim:/testProc/uut/DP/RF/rf[1]
+add wave -position end  sim:/testProc/uut/DP/RF/rf[0]
+run
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$end'
+#    Time: 125 ns  Iteration: 0  Process: /testProc/#INITIAL#23 File: D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/testProc.v Line: 58
+vlog -reportprogress 300 -work work {D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/testProc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:25:06 on Feb 14,2022
+# vlog -reportprogress 300 -work work D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/testProc.v 
+# -- Compiling module testProc
+# ** Error: D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/testProc.v(24): (vlog-2110) Illegal reference to net "dataOut".
+# End time: 19:25:06 on Feb 14,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# End time: 22:54:29 on Feb 14,2022, Elapsed time: 3:40:07
+# Errors: 1, Warnings: 1

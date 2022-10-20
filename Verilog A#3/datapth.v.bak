@@ -1,0 +1,8 @@
+module datapth(
+
+	input enA, enB, reset, clk,
+	input [16:0] input_A,
+	input SA,
+	input [16:0] input_B,
+	input SB,
+	input [4:0] n,

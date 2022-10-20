@@ -1,0 +1,17 @@
+module simple8BitProcessor(
+    input  [7:0] dataIn,
+    output [7:0] dataOut,
+	 input  [5:0] func,
+	 input  clock
+    );
+	 wire [1:0] opCode = func[5:4];
+	 wire [1:0] Rx = func[3:2];
+	 wire [1:0] Ry = func[1:0];
+
+	 wire [1:0] destSrc;
+	 wire regWrite, AddSub;
+	 
+	 controlUnit CU(opCode, regWrite, AddSub, destSrc);
+	 dataPath    DP(dataIn, Rx, Ry, dataOut, AddSub, destSrc, regWrite, clock);
+
+endmodule

@@ -1,0 +1,134 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/uni/EE/EE 460/assgiments/Verilog A#1/simulation/modelsim
+vAdder
+Z1 !s110 1642958560
+!i10b 1
+!s100 T^b5KZjIDZ3I3ZMX4[ahb3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I1;GA8ak``mL?6QdKi@V2Y0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1642957095
+8D:/uni/EE/EE 460/assgiments/Verilog A#1/Adder.v
+FD:/uni/EE/EE 460/assgiments/Verilog A#1/Adder.v
+!i122 3
+L0 22 8
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1642958560.000000
+!s107 D:/uni/EE/EE 460/assgiments/Verilog A#1/Adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#1|D:/uni/EE/EE 460/assgiments/Verilog A#1/Adder.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work {+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#1}
+Z8 tCvgOpt 0
+n@adder
+veightBitRegister
+R1
+!i10b 1
+!s100 LHcMMnG[>7;ka<[LI4XzR0
+R2
+ISch]]6DU`LQdXbIQBX2@P0
+R3
+R0
+Z9 w1642957096
+8D:/uni/EE/EE 460/assgiments/Verilog A#1/eightBitRegister.v
+FD:/uni/EE/EE 460/assgiments/Verilog A#1/eightBitRegister.v
+!i122 0
+L0 21 19
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/uni/EE/EE 460/assgiments/Verilog A#1/eightBitRegister.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#1|D:/uni/EE/EE 460/assgiments/Verilog A#1/eightBitRegister.v|
+!i113 1
+R6
+R7
+R8
+neight@bit@register
+vtriadd_test
+!s110 1642958577
+!i10b 1
+!s100 jDKlkZo2_V4`]TFL:Eco33
+R2
+IP`mm`V72mk5X51d^HnODY2
+R3
+R0
+w1642958536
+8D:/uni/EE/EE 460/assgiments/Verilog A#1/triAdd_test.v
+FD:/uni/EE/EE 460/assgiments/Verilog A#1/triAdd_test.v
+!i122 4
+L0 2 42
+R4
+r1
+!s85 0
+31
+!s108 1642958577.000000
+!s107 D:/uni/EE/EE 460/assgiments/Verilog A#1/triAdd_test.v|
+!s90 -reportprogress|300|-work|work|D:/uni/EE/EE 460/assgiments/Verilog A#1/triAdd_test.v|
+!i113 1
+o-work work
+R8
+vtriStateBuff
+R1
+!i10b 1
+!s100 gdQPDNWkO<QBY8L662JdV0
+R2
+IO@]jLlOXWcdeoG[?F<[eH0
+R3
+R0
+R9
+8D:/uni/EE/EE 460/assgiments/Verilog A#1/triStateBuff.v
+FD:/uni/EE/EE 460/assgiments/Verilog A#1/triStateBuff.v
+!i122 1
+L0 21 13
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/uni/EE/EE 460/assgiments/Verilog A#1/triStateBuff.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#1|D:/uni/EE/EE 460/assgiments/Verilog A#1/triStateBuff.v|
+!i113 1
+R6
+R7
+R8
+ntri@state@buff
+vtriStateBus
+R1
+!i10b 1
+!s100 V6RkeS=<9i7@i2DolSO1:1
+R2
+IH5iVkPi`JHBA1^6mS`6=:1
+R3
+R0
+w1642957093
+8D:/uni/EE/EE 460/assgiments/Verilog A#1/triStateBus.v
+FD:/uni/EE/EE 460/assgiments/Verilog A#1/triStateBus.v
+!i122 2
+L0 21 28
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/uni/EE/EE 460/assgiments/Verilog A#1/triStateBus.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#1|D:/uni/EE/EE 460/assgiments/Verilog A#1/triStateBus.v|
+!i113 1
+R6
+R7
+R8
+ntri@state@bus

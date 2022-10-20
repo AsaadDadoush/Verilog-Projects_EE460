@@ -1,0 +1,83 @@
+# Reading pref.tcl
+# do FibonacciNumberGenerator_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/uni/EE/EE\ 460/assgiments/Verilog\ A#3 {D:/uni/EE/EE 460/assgiments/Verilog A#3/adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:31:04 on Feb 22,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#3" D:/uni/EE/EE 460/assgiments/Verilog A#3/adder.v 
+# -- Compiling module Adder
+# 
+# Top level modules:
+# 	Adder
+# End time: 17:31:04 on Feb 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/uni/EE/EE\ 460/assgiments/Verilog\ A#3 {D:/uni/EE/EE 460/assgiments/Verilog A#3/counter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:31:04 on Feb 22,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#3" D:/uni/EE/EE 460/assgiments/Verilog A#3/counter.v 
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# End time: 17:31:04 on Feb 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/uni/EE/EE\ 460/assgiments/Verilog\ A#3 {D:/uni/EE/EE 460/assgiments/Verilog A#3/MUX.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:31:04 on Feb 22,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#3" D:/uni/EE/EE 460/assgiments/Verilog A#3/MUX.v 
+# -- Compiling module MUX
+# 
+# Top level modules:
+# 	MUX
+# End time: 17:31:04 on Feb 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/uni/EE/EE\ 460/assgiments/Verilog\ A#3 {D:/uni/EE/EE 460/assgiments/Verilog A#3/Reg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:31:04 on Feb 22,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#3" D:/uni/EE/EE 460/assgiments/Verilog A#3/Reg.v 
+# -- Compiling module Reg
+# 
+# Top level modules:
+# 	Reg
+# End time: 17:31:05 on Feb 22,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/uni/EE/EE\ 460/assgiments/Verilog\ A#3 {D:/uni/EE/EE 460/assgiments/Verilog A#3/FibonacciAdder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:31:05 on Feb 22,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#3" D:/uni/EE/EE 460/assgiments/Verilog A#3/FibonacciAdder.v 
+# -- Compiling module FibonacciAdder
+# 
+# Top level modules:
+# 	FibonacciAdder
+# End time: 17:31:05 on Feb 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/uni/EE/EE\ 460/assgiments/Verilog\ A#3 {D:/uni/EE/EE 460/assgiments/Verilog A#3/datapth.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:31:05 on Feb 22,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#3" D:/uni/EE/EE 460/assgiments/Verilog A#3/datapth.v 
+# -- Compiling module datapth
+# 
+# Top level modules:
+# 	datapth
+# End time: 17:31:05 on Feb 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/uni/EE/EE\ 460/assgiments/Verilog\ A#3 {D:/uni/EE/EE 460/assgiments/Verilog A#3/ControlUnit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:31:05 on Feb 22,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#3" D:/uni/EE/EE 460/assgiments/Verilog A#3/ControlUnit.v 
+# -- Compiling module ControlUnit
+# 
+# Top level modules:
+# 	ControlUnit
+# End time: 17:31:05 on Feb 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 

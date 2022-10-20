@@ -1,0 +1,11 @@
+module counter(
+
+	input[4:0] n,
+	input clr, clk
+	output CNum);
+	
+	
+	reg [4:0]  
+	
+	
+	

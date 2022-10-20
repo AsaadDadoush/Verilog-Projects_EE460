@@ -1,0 +1,185 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/simulation/modelsim
+vALU
+Z1 !s110 1644855082
+!i10b 1
+!s100 SQ20MV[Q6]JK_LLH41gWK0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IV>4TGN>Ne4=e?Xm_zR0oU0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1644364887
+8D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/ALU.v
+FD:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/ALU.v
+!i122 0
+L0 2 21
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1644855082.000000
+!s107 D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/ALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor|D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/ALU.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work {+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor}
+Z8 tCvgOpt 0
+n@a@l@u
+vcontrolUnit
+R1
+!i10b 1
+!s100 WPK0aNU>kRe^gKU>I[<3I3
+R2
+IG`ZznFW`aUBZOV8`?WOHO1
+R3
+R0
+w1644360893
+8D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/controlunit.v
+FD:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/controlunit.v
+!i122 1
+Z9 L0 2 22
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/controlunit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor|D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/controlunit.v|
+!i113 1
+R6
+R7
+R8
+ncontrol@unit
+vdataPath
+R1
+!i10b 1
+!s100 =CC_13`6GJ6BiJ]X[a;W10
+R2
+IoX1>L6C4Z081OZ_d77BiJ2
+R3
+R0
+w1644360901
+8D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/dataPath.v
+FD:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/dataPath.v
+!i122 3
+R9
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/dataPath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor|D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/dataPath.v|
+!i113 1
+R6
+R7
+R8
+ndata@path
+vMUX3
+R1
+!i10b 1
+!s100 <XDM]oCW_zo:RY?UOiM0<0
+R2
+IA5d:=9H6?Ybh=gGSlXN;]1
+R3
+R0
+w1644360916
+8D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/MUX3.v
+FD:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/MUX3.v
+!i122 2
+L0 2 19
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/MUX3.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor|D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/MUX3.v|
+!i113 1
+R6
+R7
+R8
+n@m@u@x3
+vregFile
+Z10 !s110 1644855083
+!i10b 1
+!s100 bRTX[DD:k4bPLekI_h39J3
+R2
+INRC;[5PTjgmJ`[cGUM?gA1
+R3
+R0
+w1644360911
+8D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/regFile.v
+FD:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/regFile.v
+!i122 4
+Z11 L0 2 18
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/regFile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor|D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/regFile.v|
+!i113 1
+R6
+R7
+R8
+nreg@file
+vsimple8BitProcessor
+R10
+!i10b 1
+!s100 84S2^UfgoNnTj>589aC:F0
+R2
+I>^@fVG4;n=0h`=Tb`Zck92
+R3
+R0
+w1644360884
+8D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/simple8BitProcessor.v
+FD:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/simple8BitProcessor.v
+!i122 5
+R11
+R4
+r1
+!s85 0
+31
+!s108 1644855083.000000
+!s107 D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/simple8BitProcessor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor|D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/simple8BitProcessor.v|
+!i113 1
+R6
+R7
+R8
+nsimple8@bit@processor
+vtestProc
+!s110 1644855257
+!i10b 1
+!s100 BLjU:2NL^[DP^WCJgT>Bz0
+R2
+Ik>kYdTohEAOX=1Ni4VIVb3
+R3
+R0
+w1644855247
+8D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/testProc.v
+FD:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/testProc.v
+!i122 7
+L0 2 61
+R4
+r1
+!s85 0
+31
+!s108 1644855257.000000
+!s107 D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/testProc.v|
+!s90 -reportprogress|300|-work|work|D:/uni/EE/EE 460/assgiments/Verilog A#2/8bitprocessor/testProc.v|
+!i113 1
+o-work work
+R8
+ntest@proc
